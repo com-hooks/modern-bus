@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "declaration": true,
+        "isolatedModules": true,
+        "declarationDir": "./dist/types",
+        "outDir": "./__tsc/dist",
+        "strict": true,
+    },
+    "includes": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "dist",
+        "__test__/**/*"
+    ]
+}

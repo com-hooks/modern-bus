@@ -1,0 +1,40 @@
+{
+  "name": "modern-bus",
+  "version": "0.1.1",
+  "description": "bus modern-bus 公交车 mitter 事件订阅 事件发布",
+  "scripts": {
+    "test": "rspack build --config rspack.test.cjs",
+    "cjs": "rspack build --config rspack.config.cjs",
+    "esm": "rspack build --config rspack.config.mjs",
+    "dts": "npx tsc -w"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js",
+      "types": "./dist/types/index.d.ts"
+    }
+  },
+  "files": [
+    "README.md",
+    "package.json",
+    "dist"
+  ],
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/com-hooks/modern-bus"
+  },
+  "keywords": [
+    "bus",
+    "modern-bus",
+    "公交车",
+    "mitter",
+    "事件订阅",
+    "事件发布"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "",
+  "license": "ISC"
+}
