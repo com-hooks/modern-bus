@@ -1,8 +1,8 @@
-### Bus
+## bus-plus
 - 用法和mitter方向保持一致
 ```js
-import { Bus } from 'modern-bus';
-const mitter = new Bus();
+import { BusPlus } from 'bus-plus';
+const mitter = new BusPlus();
 
 mitter.on('message', function(data) {
     console.log(data); // test data
@@ -18,9 +18,9 @@ mitter.emit('message', 'test data')
 
 ### extends
 ```js
-import { Bus } from 'modern-bus';
+import { BusPlus } from 'bus-plus';
 
-class MyBus extends Bus {
+class MyBus extends BusPlus {
     construct() {
         
     }

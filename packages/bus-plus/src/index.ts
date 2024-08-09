@@ -3,7 +3,7 @@ interface MapEventValue {
     once: boolean;
     handle: EventCallback;
 }
-export class Bus {
+export class BusPlus {
     maps: Map<string, MapEventValue[]>;
     constructor(maps = new Map()) {
         this.maps = maps;

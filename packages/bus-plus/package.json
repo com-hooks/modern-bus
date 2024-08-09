@@ -1,7 +1,7 @@
 {
-  "name": "modern-bus",
-  "version": "0.1.1",
-  "description": "bus modern-bus 公交车 mitter 事件订阅 事件发布",
+  "name": "bus-plus",
+  "version": "0.2.2",
+  "description": "bus bus-plus 公交车 mitter 事件订阅 事件发布",
   "scripts": {
     "test": "rspack build --config rspack.test.cjs",
     "cjs": "rspack build --config rspack.config.cjs",
@@ -26,7 +26,7 @@
   },
   "keywords": [
     "bus",
-    "modern-bus",
+    "bus-plus",
     "公交车",
     "mitter",
     "事件订阅",
