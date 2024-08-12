@@ -5,9 +5,7 @@
   "main": "./dist/esm/index.js",
   "types": "./dist/types/index.d.ts",
   "scripts": {
-    "test": "rspack build --config rspack.test.cjs",
-    "cjs": "rspack build --config rspack.config.cjs",
-    "esm": "rspack build --config rspack.config.mjs",
+    "lib": "rspack-lib",
     "dts": "npx tsc -w"
   },
   "exports": {
