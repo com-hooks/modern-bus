@@ -1,7 +1,9 @@
 {
   "name": "bus-plus",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "bus bus-plus 公交车 mitter 事件订阅 事件发布",
+  "main": "./dist/esm/index.js",
+  "types": "./dist/types/index.d.ts",
   "scripts": {
     "test": "rspack build --config rspack.test.cjs",
     "cjs": "rspack build --config rspack.config.cjs",
