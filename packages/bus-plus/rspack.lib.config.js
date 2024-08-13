@@ -1,4 +1,5 @@
 const { defineConfig } = require("rspack-lib");
+const { RspackDtsPlugin } = require("rspack-dts-plugin");
 
 module.exports = defineConfig({
     lib: [
@@ -32,12 +33,15 @@ module.exports = defineConfig({
                     type: 'module',
                 },
             },
+            plugins: [
+                new RspackDtsPlugin()
+            ],
         },
     ],
     // rspack 配置
     rspack: {
         entry: './src/index.ts',
-        watch: true,
+        watch: false,
         resolve: {
             extensions: [".ts", ".js", ".json", ".wasm"],
         },

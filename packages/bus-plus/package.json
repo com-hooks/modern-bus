@@ -6,7 +6,7 @@
   "types": "./dist/types/index.d.ts",
   "scripts": {
     "lib": "rspack-lib",
-    "dts": "npx tsc -w"
+    "dts": "npx tsc"
   },
   "exports": {
     ".": {

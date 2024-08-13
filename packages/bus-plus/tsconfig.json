@@ -6,6 +6,7 @@
         "declarationDir": "./dist/types",
         "outDir": "./__tsc/dist",
         "strict": true,
+        "emitDeclarationOnly": true
     },
     "includes": [
         "./src/**/*"
